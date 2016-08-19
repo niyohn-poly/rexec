@@ -1,7 +1,7 @@
 # rexec
 a remote script executor  
 executes commands over ssh, using the options supplied.
-###usage
+###Usage
 ```
 rexec [-rh] [-h hosts] [-s script] [-c certificate] [hosts] [positional parameters]
 Options: 
@@ -13,3 +13,11 @@ Options:
        	-u     		the user to log in as, defaults to ec2-user  
 ```
 All options can be supplied as a file or as a string
+
+
+##Installation
+https://github.com/Gherkin/homebrew-tap
+```
+$ brew tap Gherkin/tap
+$ brew install rexec
+```
